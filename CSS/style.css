@@ -1,0 +1,88 @@
+/* CSS Reset */
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    background-image: url("/My Projects/Gym Website/Images/Gym Model.png")
+}
+/* Left Div contains Logo */
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.left img{
+    width: 180px;
+    filter: invert(100%);
+    line-height: 0px;
+}
+.left span{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+/* Mid div conatins Nav Bar */
+.mid {
+    display: block;
+    width: 54%;
+    margin: 20px auto;
+}
+
+/* .navbar {
+     background-color: black; */
+
+.navbar li {
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.navbar a:hover{
+    color: black;
+    background-color: lightgray;
+}
+.navbar a.active{
+    color: darkgray;
+}
+/* Rigth Div contains buttons for signup and login */
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Register{
+    margin: 3px 5px;
+    padding: 2px 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.Register:hover{
+    background-color: black;
+    color: white;
+}
+.Register:active{
+    border: 2px solid black;
+}
+/*  Container Divis for registration of members  */
+.container{
+    border: 2px solid #5948488a;
+        width: 20%;
+    margin: 250px 20px;
+    padding: 18px 21px;
+}
+form input{
+    width: 180px;
+    position: absolute;
+    left: 140px;
+}
